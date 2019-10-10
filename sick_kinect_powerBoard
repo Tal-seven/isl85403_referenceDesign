@@ -1,0 +1,70 @@
+Source,/home/talha/SevenRobotics/Seven_HW/Electronics/kicad/sick_kinect_powerBoard/sick_kinect_powerBoard/sick_kinect_powerBoard.sch
+Kicad Rev,Eeschema 5.1.4-e60b266~84~ubuntu16.04.1
+Generated Date,Thu Sep 26 22:18:21 2019
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+U1,LM25576,buck-reg-5v,LM25576
+R6,100K,Device,R_Small
+C16,4.7uF,Device,C_Small
+C17,0.1uF,Device,C_Small
+C7,22uF 35V,Device,CP1_Small
+L2,22uH,pspice,INDUCTOR
+Q1,BSS138,Transistor_FET,BSS138
+U2,ISL85403E,Converter_DCDC,ISL85403E
+R10,480K,Device,R_Small
+R11,60K,Device,R_Small
+C14,4.7uF,Device,C_Small
+C9,4.7uF35V,Device,CP1_Small
+C11,4.7uF,Device,C_Small
+C21,1uF,Device,C_Small
+R14,4.7K,Device,R_Small
+C22,1uF,Device,C_Small
+C23,330uF 30V,Device,CP1_Small
+R15,60K,Device,R_Small
+R16,2K,Device,R_Small
+R7,0,Device,R_Small
+R8,0,Device,R_Small
+R9,0,Device,R_Small
+C19,68pF,Device,C_Small
+C18,470pF,Device,C_Small
+R13,100,Device,R_Small
+R12,120K,Device,R_Small
+C20,4.7nF,Device,C_Small
+R2,21K,Device,R_Small
+C3,220pF,Device,C_Small
+R3,155K,Device,R_Small
+C4,0.1uF,Device,C_Small
+C5,0.022uF,Device,C_Small
+L1,22uH,pspice,INDUCTOR
+R4,68K,Device,R_Small
+R5,6.8K,Device,R_Small
+C2,DNP,Device,C_Small
+C1,0.01uF,Device,C_Small
+R1,49.9K,Device,R_Small
+C12,0.1uF,Device,C_Small
+C15,150uF 20V,Device,CP1_Small
+C6,22uF 35V,Device,CP1_Small
+C13,4.7uF,Device,C_Small
+C8,4.7uF35V,Device,CP1_Small
+C10,4.7uF,Device,C_Small
+TP2,Vout,Connector,TestPoint_Alt
+TP3,FB,Connector,TestPoint_Alt
+TP5,VKinect,Connector,TestPoint_Alt
+TP4,Vsick,Connector,TestPoint_Alt
+TP7,FB,Connector,TestPoint_Alt
+TP8,Vout,Connector,TestPoint_Alt
+TP6,Vphase,Connector,TestPoint_Alt
+TP1,Vswitch,Connector,TestPoint_Alt
+D2,chsd60-a,Device,D_Schottky_AKA
+D3,chsd60-a,Device,D_Schottky_AKA
+D1,chsd60-a,Device,D_Schottky_AKA
+R17,0,Device,R_Small
+J1,Conn_01x04_Male,Connector,Conn_01x04_Male
+J2,Conn_01x04_Male,Connector,Conn_01x04_Male
+J3,Conn_01x02_Male,Connector,Conn_01x02_Male
+J4,Conn_01x02_Male,Connector,Conn_01x02_Male

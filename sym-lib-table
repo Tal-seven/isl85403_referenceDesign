@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Converter_DCDC)(type Legacy)(uri ${KIPRJMOD}/Converter_DCDC.lib)(options "")(descr ""))
+  (lib (name sick_kinect_powerBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/sick_kinect_powerBoard-rescue.lib)(options "")(descr ""))
+)
